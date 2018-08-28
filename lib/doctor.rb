@@ -21,7 +21,7 @@ class Doctor
   # iterates through all appointments and finds those belonging to this doctor.
   def appointments
     Appointment.all.select |appointment|
-    appointment.doctor == self
+      appointment.doctor == self
     end
   end
 
