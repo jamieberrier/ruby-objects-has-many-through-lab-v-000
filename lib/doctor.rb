@@ -21,7 +21,9 @@ class Doctor
   # iterates over that doctor's appointments and collects the patient that belongs
   # to each appointment.
   def patients
+    Patient.all.each do |patient|
 
+    end
   end
 
 end
