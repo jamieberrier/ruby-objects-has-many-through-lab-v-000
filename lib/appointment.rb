@@ -17,7 +17,8 @@ class Doctor
   def new_appointment
   end
 
-  #  iterates through all appointments and finds those belonging to this doctor.
+  # iterates over that doctor's appointments and collects the patient that belongs 
+  # to each appointment.
   def patients
   end
 
