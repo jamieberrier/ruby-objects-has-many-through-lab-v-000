@@ -21,6 +21,9 @@ class Genre
 
   # iterates through all songs and finds the songs that belong to that genre.
   def songs
+    Song.all.select do |song|
+      song.genre == self
+    end
   end
 
   # iterates over the genre's collection of songs and collects the artist that owns each song
