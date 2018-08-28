@@ -20,15 +20,15 @@ class Doctor
 
   # iterates through all appointments and finds those belonging to this doctor.
   def appointments
-    
+    Appointment.all.select |appointment|
+
   end
-  
+  end
+
   # iterates over that doctor's appointments and collects the patient that belongs
   # to each appointment.
   def patients
-    Appointment.all.select do |appointment|
-      appointment.patient
-    end
+    
   end
 
 end
