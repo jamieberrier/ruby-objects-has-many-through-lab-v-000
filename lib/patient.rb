@@ -19,6 +19,7 @@ class Patient
     Appointment.new(date, self, doctor)
   end
 
+  #  iterates through the appointments array and returns appointments that belong to the patient.
   def appointments
   end
 
