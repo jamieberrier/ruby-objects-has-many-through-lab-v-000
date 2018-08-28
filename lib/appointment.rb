@@ -9,8 +9,8 @@ class Appointment
   # a doctor. The appointment should be saved in the @@all array.
   def initialize(patient, date, doctor)
     binding.pry
-    @date = date
     @patient = patient
+    @date = date
     @doctor = doctor
 
     @@all << self
