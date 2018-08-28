@@ -16,7 +16,7 @@ class Genre
   # takes in an argument of a name and an artist and creates a new song.
   # That song should know that it belongs to the genre.
   def new_song(name, artist)
-
+    Song.new(name, artist, self)
   end
 
   # iterates through all songs and finds the songs that belong to that genre.
