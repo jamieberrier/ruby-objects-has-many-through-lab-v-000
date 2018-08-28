@@ -22,7 +22,7 @@ class Doctor
   # to each appointment.
   def patients
     Appointment.all.each do |appointment|
-      
+      appointment.patient
     end
   end
 
