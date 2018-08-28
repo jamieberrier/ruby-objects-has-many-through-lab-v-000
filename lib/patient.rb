@@ -21,6 +21,9 @@ class Patient
 
   #  iterates through the appointments array and returns appointments that belong to the patient.
   def appointments
+    Appointment.all.select do |appointment|
+
+    end
   end
 
   # iterates over that patient's appointments and collects the doctor that belongs to each appointment.
