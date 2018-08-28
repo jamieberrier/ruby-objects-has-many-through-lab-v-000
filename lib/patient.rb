@@ -17,6 +17,7 @@ class Patient
   # The appointment should know that it belongs to the patient.
   def new_appointment(doctor, date)
     Appointment.new(date, self, doctor)
+    binding.pry
   end
 
   #  iterates through the appointments array and returns appointments that belong to the patient.
