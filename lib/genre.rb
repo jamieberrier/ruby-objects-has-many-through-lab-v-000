@@ -26,7 +26,8 @@ class Genre
     end
   end
 
-  # iterates over the genre's collection of songs and collects the artist that owns each song
+  # iterates over the genre's collection of songs and collects the artist that owns 
+  # each song
   def artists
   end
 
