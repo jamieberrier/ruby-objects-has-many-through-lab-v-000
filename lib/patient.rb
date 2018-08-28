@@ -19,6 +19,9 @@ class Patient
     Appointment.new(date, self, doctor)
   end
 
+  def appointments
+  end
+
   # iterates over that patient's appointments and collects the doctor that belongs to each appointment.
   def doctors
   end
