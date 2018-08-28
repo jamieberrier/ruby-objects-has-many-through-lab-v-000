@@ -29,8 +29,8 @@ class Doctor
   # to each appointment.
   def patients
     appointments.each do |appointment|
-
+      appointment.patient
     end
   end
-  
+
 end
