@@ -27,6 +27,8 @@ class Artist
   end
 
   def genres
-
+    songs.map do |meal|
+      meal.waiter
+    end
   end
 end
