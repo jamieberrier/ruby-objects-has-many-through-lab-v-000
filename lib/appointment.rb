@@ -15,11 +15,13 @@ class Doctor
   # takes in a date and an instance of the Patient class and creates a new appointment.
   # That appointment should know that it belongs to the doctor
   def new_appointment
+    
   end
 
-  # iterates over that doctor's appointments and collects the patient that belongs 
+  # iterates over that doctor's appointments and collects the patient that belongs
   # to each appointment.
   def patients
+    
   end
 
 end
