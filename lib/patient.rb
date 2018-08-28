@@ -29,7 +29,7 @@ class Patient
   # iterates over that patient's appointments and collects the doctor that belongs to each appointment.
   def doctors
     appointments.map do |appointment|
-
+      appointment.doctor
     end
   end
 
