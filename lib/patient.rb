@@ -13,9 +13,10 @@ class Patient
     @@all
   end
 
-  # takes in an argument of a doctor and a date and creates a new appointment. 
+  # takes in an argument of a doctor and a date and creates a new appointment.
   # The appointment should know that it belongs to the patient.
-  def new_appointment(doctor)
+  def new_appointment(doctor, date)
+    Appointment.new()
   end
 
   def doctors
